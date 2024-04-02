@@ -15,12 +15,16 @@ body{
 
 #direitaTopo{
     margin-left: 70%;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
+
 
 #centroPortifolio{
     width: 60%;
-    display: flex;
     margin-top: 20px;
+    display: flex;
 }
 
 #quadro1Portifolio{
@@ -29,6 +33,12 @@ body{
     height: auto;
     margin: auto;
     border-radius: 8px;
+    box-shadow: 5px 5px gray;
+}
+
+#imgbox{
+    display: flex;
+    justify-content: center;
 }
 
 #quadro2Portifolio{
@@ -37,11 +47,14 @@ body{
     height: auto;
     margin: auto;
     border-radius: 8px;
+    box-shadow: 5px 5px gray;
 }
 
 #centroPortifolio button{
-    width: 90%;
+    width: 100%;
     height: auto;
+    background-color: black;
+    color: white;
 }
 
 #iconsPortifolio{
@@ -54,8 +67,11 @@ body{
     height: auto;
     display: flex;
     margin: auto;
-
     margin-top: 200px;
+}
+
+#esquerda{
+    margin-right: 20px;
 }
 
 header{
@@ -75,6 +91,11 @@ nav ul li{
     display: inline; /*deixar um do lado do outro*/
     color: white;
     padding-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 #imgIf{
