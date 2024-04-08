@@ -3,79 +3,37 @@
     margin: 0px; /*tirar espaço, se não funcionar leia a primeira linha*/
 }
 
+/*todos*/
 body{
-    background-color: rgb(255, 235, 239);
+    background-color: white;
 }
 
 #topo{
-    width: 80%;
+    width: 100%;
     height: auto;
     display:flex;
 }
 
 #direitaTopo{
-    margin-left: 70%;
+    width: 70%;
+    margin-left: 65%;
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 
-
-#centroPortifolio{
-    width: 60%;
-    margin-top: 20px;
-    display: flex;
+#imgIf{
+    width: auto;
+    height: 50px;
 }
 
-#quadro1Portifolio{
-    background-color: white;
-    width: 20%;
-    height: auto;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 5px 5px gray;
-}
-
-#imgbox{
-    display: flex;
-    justify-content: center;
-}
-
-#quadro2Portifolio{
-    background-color: white;
-    width: 20%;
-    height: auto;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 5px 5px gray;
-}
-
-#centroPortifolio button{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-}
-
-#iconsPortifolio{
-    width: 40%;
-    height: auto;
-}
-
-#centro{
-    width: 80%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    margin-top: 200px;
-}
-
-#esquerda{
-    margin-right: 20px;
+#esquerdaTopo{
+    width: 30%;
+    margin-left: 2%;
 }
 
 header{
-    background-color: rgb(255, 188, 210);
+    background-color: rgb(73, 167, 123);
     width: 100%;
     height: 50px;
 }
@@ -98,9 +56,25 @@ nav ul li a{
     color: white;
 }
 
-#imgIf{
-    width: auto;
-    height: 50px;
+/*inicio*/
+#centro{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#esquerda{
+    margin-right: 20px;
+}
+
+#direita{
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: large;
 }
 
 #imgEu{
@@ -109,8 +83,52 @@ nav ul li a{
     border-radius: 10px;
 }
 
-#centroContato{
+/*Portifolio*/
+#imgbox{
+    display: flex;
+    justify-content: center;
+}
+
+#centroPortifolio{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+}
+
+#quadro1Portifolio{
     background-color: white;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px gray;
+    margin-right: 30px;
+}
+
+#quadro2Portifolio{
+    background-color: white;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px gray;
+    margin-left: 25px;
+}
+
+#centroPortifolio button{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+#iconsPortifolio{
+    width: 40%;
+    height: auto;
+}
+
+/*Contato*/
+#centroContato{
     width: 50%;
     height: auto;
     margin:auto;
@@ -133,4 +151,19 @@ nav ul li a{
     width: 15%;
     height: auto;
     margin-left: 75%;
+    background-color: rgb(73, 167, 123);
+    border: none;
+    border-radius: 5px;
+    color:rgb(242, 255, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.corCinza{
+    color:gray;
+}
+
+.corCinzaLetraMaior{
+    color: gray;
+    font-size: larger;
 }
