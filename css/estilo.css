@@ -56,6 +56,11 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(167, 55, 65);
+}
+
 /*inicio*/
 #centro{
     width: 80%;
@@ -98,7 +103,7 @@ nav ul li a{
 #quadro1Portifolio{
     background-color: white;
     width: 25%;
-    height: 20%;
+    height: 30%;
     margin: auto;
     border-radius: 8px;
     box-shadow: 5px 5px gray;
@@ -108,7 +113,7 @@ nav ul li a{
 #quadro2Portifolio{
     background-color: white;
     width: 25%;
-    height: 20%;
+    height: 30%;
     margin: auto;
     border-radius: 8px;
     box-shadow: 5px 5px gray;
@@ -120,6 +125,14 @@ nav ul li a{
     height: auto;
     background-color: black;
     color: white;
+}
+
+#centroPortifolio button:hover{
+    width: 100%;
+    height: auto;
+    background-color: rgb(167, 55, 65);
+    color: white;
+    cursor: pointer;
 }
 
 #iconsPortifolio{
@@ -157,6 +170,19 @@ nav ul li a{
     color:rgb(242, 255, 235);
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#centroContato input[type = submit]:hover{
+    width: 15%;
+    height: auto;
+    margin-left: 75%;
+    background-color: rgb(167, 55, 65);
+    border: none;
+    border-radius: 5px;
+    color:rgb(242, 255, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
 }
 
 .corCinza{
